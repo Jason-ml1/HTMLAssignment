@@ -10,18 +10,10 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-header {display: flex; justify-content: flex-start; align-items: center;padding: 10px; background: mediumpurple;
-}
 
-header { image https://www.vhv.rs/dpng/d/4-47533_rick-and-morty-logo-png-transparent-png.png}
-
-h1 { font-family: "Times New Roman", Geneva, sans-serif; background-color:mediumpurple; fronsize: 1000px }
-p  { background-color: mediumpurple;  frontsize: 5000px }
-body  {display: flex; justify-content: center;height:100vh; margin:300; background-color: darkgreen}
-body {background-color:mediumpurple }
 html {
   color: #222;
-  font-size: 100%;
+  font-size: 1em;
   line-height: 1.4;
 }
 
@@ -251,4 +243,5 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
 
